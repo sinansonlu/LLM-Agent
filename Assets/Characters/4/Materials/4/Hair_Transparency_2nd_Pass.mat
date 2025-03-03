@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3946185986280156596
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair_Transparency_2nd_Pass
+  m_Shader: {fileID: -6465566751694194690, guid: 59adc6954f9abbf4b8c16a770e746925, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - BOOLEAN_SECONDPASS_ON
+  - _ALPHATEST_ON
+  - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
+  - _ENABLE_FOG_ON_TRANSPARENT
+  - _SURFACE_TYPE_TRANSPARENT
+  - _TESSELLATION_PHONG
+  - _TRANSPARENT_WRITES_MOTION_VEC
+  m_InvalidKeywords:
+  - _ALPHATOMASK_ON
+  - _ENUMCLIPQUALITY_ON_STANDARD
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    MotionVector: User
+    RenderType: Transparent
+  disabledShaderPasses:
+  - RayTracingPrepass
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BlendMap:
+        m_Texture: {fileID: 2800000, guid: 836df5629f99548448d19d1e4f097d5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMap:
+        m_Texture: {fileID: 2800000, guid: 8c36678e9a7519946b817600b20867e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: ea370fdacd85612498e357ecb1d321e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IDMap:
+        m_Texture: {fileID: 2800000, guid: e39c6dda9b08f4d40bc993222cfb305a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: f0656643f18a3664fb2491c15d00ea5e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RootMap:
+        m_Texture: {fileID: 2800000, guid: 15dceb094fc56c448bd21a1bc09390e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BOOLEAN_ENABLECOLOR: 0
+    - BOOLEAN_SECONDPASS: 1
+    - _AOOccludeAll: 0
+    - _AOStrength: 1
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClip: 0.666
+    - _AlphaCutoffEnable: 1
+    - _AlphaDstBlend: 10
+    - _AlphaPower: 0.7
+    - _AlphaRemap: 1
+    - _AlphaSrcBlend: 1
+    - _BaseColorStrength: 1
+    - _BlendMode: 0
+    - _BlendStrength: 0.84
+    - _ConservativeDepthOffsetEnable: 0
+    - _CullMode: 0
+    - _CullModeForward: 2
+    - _DepthOffsetEnable: 0
+    - _DiffuseStrength: 1
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 10
+    - _ENUMCLIPQUALITY_ON: 0
+    - _EnableBlendModePreserveSpecularLighting: 0
+    - _EnableFogOnTransparent: 1
+    - _EndColorStrength: 1
+    - _FlowMapFlipGreen: 0
+    - _GlobalStrength: 1
+    - _HighlightAOverlapEnd: 1
+    - _HighlightAOverlapInvert: 0.661
+    - _HighlightAStrength: 0.352
+    - _HighlightBOverlapEnd: 1
+    - _HighlightBOverlapInvert: 0
+    - _HighlightBStrength: 0.62
+    - _HighlightBlend: 1
+    - _InvertRootMap: 0
+    - _NormalStrength: 1
+    - _OpaqueCullMode: 2
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RenderQueueType: 4
+    - _RequireSplitLighting: 0
+    - _RimTransmissionIntensity: 0.061669957
+    - _RootColorStrength: 1
+    - _SecondarySmoothness: 0.625
+    - _SecondarySpecularMultiplier: 0.07661237
+    - _SecondarySpecularShift: 0
+    - _ShadowClip: 0.5
+    - _SmoothnessMax: 0.8
+    - _SmoothnessMin: 0.3248
+    - _SmoothnessPower: 1
+    - _SpecularMultiplier: 0.24882464
+    - _SpecularShiftMax: 0
+    - _SpecularShiftMin: 0.305
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 4
+    - _StencilRefMV: 32
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskMV: 43
+    - _SupportDecals: 1
+    - _SurfaceType: 1
+    - _TessellationBackFaceCullEpsilon: -0.25
+    - _TessellationFactor: 8
+    - _TessellationFactorMaxDistance: 50
+    - _TessellationFactorMinDistance: 20
+    - _TessellationFactorTriangleSize: 100
+    - _TessellationMaxDisplacement: 0.01
+    - _TessellationMode: 1
+    - _TessellationShapeFactor: 0.75
+    - _TransparentBackfaceEnable: 1
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 1
+    - _TransparentZWrite: 0
+    - _UseShadowThreshold: 1
+    - _VertexColorStrength: 1
+    - _ZTestDepthEqualForOpaque: 2
+    - _ZTestTransparent: 2
+    - _ZWrite: 0
+    m_Colors:
+    - _DiffuseColor: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EndColor: {r: 0.39503008, g: 0.3025538, b: 0.2297351, a: 1}
+    - _HighlightAColor: {r: 0.34586892, g: 0.2863614, b: 0.2297351, a: 1}
+    - _HighlightADistribution: {r: 0, g: 0, b: 0.5202, a: 0}
+    - _HighlightBColor: {r: 0.8721031, g: 0.7262435, b: 0.6379926, a: 1}
+    - _HighlightBDistribution: {r: 0.22900002, g: 0.3494, b: 0.41980004, a: 0}
+    - _RootColor: {r: 0.3025538, g: 0.2402475, b: 0.2186491, a: 1}
+    - _SpecularTint: {r: 1, g: 0.92611265, b: 0.8810416, a: 1}
+    - _VertexBaseColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
