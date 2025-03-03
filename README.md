@@ -1,6 +1,6 @@
 # Effects of Embodiment and Personality in LLM-Based Conversational Agents
 
-- Should insert OpenAI API key in [MainLogic.cs](https://github.com/sinansonlu/LLM-Agent/blob/84ce3515ad7fca4e3dbad18ea60c1e24aad2ccb8/Assets/Scripts/MainLogic.cs#L297)
+- Should insert OpenAI API key in [MainLogic.cs](https://github.com/sinansonlu/LLM-Agent/blob/84ce3515ad7fca4e3dbad18ea60c1e24aad2ccb8/Assets/Scripts/MainLogic.cs#L297) to receive LLM answers: `api = new OpenAIAPI("insert-your-api-key-here");` 
 - ChatGPTScene contains the application used in the study; survey logic can be excluded for testing.
 
 ```
