@@ -97,8 +97,8 @@ Material:
     - _AlphaClip: 0.666
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 10
-    - _AlphaPower: 0.7
-    - _AlphaRemap: 1
+    - _AlphaPower: 1
+    - _AlphaRemap: 0.75
     - _AlphaSrcBlend: 1
     - _BaseColorStrength: 1
     - _BlendMode: 0
@@ -116,6 +116,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _EndColorStrength: 1
+    - _ExcludeFromTUAndAA: 0
     - _FlowMapFlipGreen: 0
     - _GlobalStrength: 1
     - _HighlightAOverlapEnd: 1
@@ -189,7 +190,7 @@ Material:
     - _SpecularTint: {r: 1, g: 0.91387594, b: 0.8647152, a: 1}
     - _VertexBaseColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &1828684342438456008
+--- !u!114 &2439584727382156309
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

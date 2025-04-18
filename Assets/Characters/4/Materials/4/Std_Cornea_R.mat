@@ -107,8 +107,9 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _IOR: 1.45
-    - _IrisBrightness: 1.2
+    - _ExcludeFromTUAndAA: 0
+    - _IOR: 1.4
+    - _IrisBrightness: 1.5
     - _IrisDepth: 0.2997
     - _IrisHue: 0.5
     - _IrisRadius: 0.15
@@ -122,7 +123,7 @@ Material:
     - _OpaqueCullMode: 2
     - _PMod: 6.4
     - _ParallaxRadius: 0.1175
-    - _PupilScale: 0.955
+    - _PupilScale: 0.71625
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0

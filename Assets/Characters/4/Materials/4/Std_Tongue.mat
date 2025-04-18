@@ -86,6 +86,7 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
     - _FrontAO: 1
     - _MicroNormalStrength: 0.5
     - _MicroNormalTiling: 4

@@ -90,6 +90,7 @@ Material:
     - _DstBlend: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
     - _FrontAO: 1
     - _GumsBrightness: 0.9
     - _GumsSSS: 1
@@ -98,7 +99,7 @@ Material:
     - _IsUpperTeeth: 0
     - _MicroNormalStrength: 0.3
     - _MicroNormalTiling: 10
-    - _NormalStrength: 1
+    - _NormalStrength: 0.5
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _RearAO: 0

@@ -65,6 +65,7 @@ Material:
     - _DstBlend: 10
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
     - _InnerOffset: 0.0005
     - _Metallic: 0
     - _OpaqueCullMode: 2
